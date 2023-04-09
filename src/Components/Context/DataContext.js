@@ -24,8 +24,9 @@ export const Pefi = ({children}) => {
             const data = await fetch("https://fakestoreapi.com/products");
             const  datajson  = await data.json();
                  setKamal(datajson)
+             
            }
-           
+         
        return ( 
             <DataContext.Provider
             value={{

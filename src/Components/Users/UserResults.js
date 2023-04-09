@@ -6,25 +6,16 @@ import { Button } from 'react-bootstrap'
  
 
 const UserResults = () => {
-    const {fetchData} = useContext(DataContext)
-  
-   
-    useEffect(() => {
-      fetchData()
-      
-    }, [])
-
- 
-
+  const {fetchData} = useContext(DataContext)
+useEffect(()=>{
+  fetchData()
+},[])
  
    
   return (
     <div>
         <div className='hole'>
-        
-        
-       <UserItem></UserItem> 
-      
+         <UserItem></UserItem> 
         </div>
     </div>
   )

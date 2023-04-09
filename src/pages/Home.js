@@ -2,6 +2,7 @@ import React from 'react'
 import UserResults from '../Components/Users/UserResults'
 import UserSelection from '../Components/Users/UserSelection'
 import Bar from './Bar'
+import UserItem from '../Components/Users/UserItem'
  
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
     <div>
       <Bar></Bar>
    {/*    <UserSelection></UserSelection> */}
-      <UserResults></UserResults>
+    <UserResults></UserResults>
     </div>
   )
 }
